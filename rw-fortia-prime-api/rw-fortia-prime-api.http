@@ -1,0 +1,6 @@
+@rw_fortia_prime_api_HostAddress = http://localhost:5183
+
+GET {{rw_fortia_prime_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
