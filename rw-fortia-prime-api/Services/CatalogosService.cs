@@ -12,18 +12,12 @@ namespace rw_fortia_prime_api.Services
             _context = context;
         }
 
-        public async Task<List<object>> ConsultarPuestos()
+        public async Task<List<RhPuesto>> ConsultarPuestos()
         {
             var data = await _context.RhPuestos
-                .Select(p => new
-                {
-                    id = p.ClaPuesto,
-                    nombre = p.NomPuesto
-                })
                 .ToListAsync();
 
-            return data.Cast<object>().ToList();
+            return data;
         }
-
     }
 }

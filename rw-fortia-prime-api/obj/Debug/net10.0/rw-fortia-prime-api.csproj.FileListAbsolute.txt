@@ -160,3 +160,6 @@ C:\Users\carlo\OneDrive\Documentos\Proyectos\DotNet\rw-fortia-prime-api\rw-forti
 C:\Users\carlo\OneDrive\Documentos\Proyectos\DotNet\rw-fortia-prime-api\rw-fortia-prime-api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\carlo\OneDrive\Documentos\Proyectos\DotNet\rw-fortia-prime-api\rw-fortia-prime-api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\carlo\OneDrive\Documentos\Proyectos\DotNet\rw-fortia-prime-api\rw-fortia-prime-api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\carlo\OneDrive\Documentos\Proyectos\DotNet\rw-fortia-prime-api\rw-fortia-prime-api\bin\Debug\net10.0\AutoMapper.dll
+C:\Users\carlo\OneDrive\Documentos\Proyectos\DotNet\rw-fortia-prime-api\rw-fortia-prime-api\obj\Debug\net10.0\rw-fortia-prime-api.sourcelink.json
+C:\Users\carlo\OneDrive\Documentos\Proyectos\DotNet\rw-fortia-prime-api\rw-fortia-prime-api\bin\Debug\net10.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

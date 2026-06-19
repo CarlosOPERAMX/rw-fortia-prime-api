@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi;
+using rw_fortia_prime_api.Dtos;
 using rw_fortia_prime_api.Entities;
 using rw_fortia_prime_api.Services;
 
@@ -7,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Controllers
 builder.Services.AddControllers();
+
+// AutoMapper
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 // Swagger
 builder.Services.AddEndpointsApiExplorer();

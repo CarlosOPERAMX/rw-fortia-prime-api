@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|c:\\users\\carlo\\onedrive\\documentos\\proyectos\\dotnet\\rw-fortia-prime-api\\rw-fortia-prime-api\\dtos\\puestodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|solutionrelative:rw-fortia-prime-api\\dtos\\puestodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|c:\\users\\carlo\\onedrive\\documentos\\proyectos\\dotnet\\rw-fortia-prime-api\\rw-fortia-prime-api\\entities\\rhpuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|solutionrelative:rw-fortia-prime-api\\entities\\rhpuesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|c:\\users\\carlo\\onedrive\\documentos\\proyectos\\dotnet\\rw-fortia-prime-api\\rw-fortia-prime-api\\dtos\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|solutionrelative:rw-fortia-prime-api\\dtos\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|c:\\users\\carlo\\onedrive\\documentos\\proyectos\\dotnet\\rw-fortia-prime-api\\rw-fortia-prime-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|solutionrelative:rw-fortia-prime-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|c:\\users\\carlo\\onedrive\\documentos\\proyectos\\dotnet\\rw-fortia-prime-api\\rw-fortia-prime-api\\controllers\\catalogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|solutionrelative:rw-fortia-prime-api\\controllers\\catalogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|c:\\users\\carlo\\onedrive\\documentos\\proyectos\\dotnet\\rw-fortia-prime-api\\rw-fortia-prime-api\\services\\catalogosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D99860BE-DD96-0515-02DF-AFA3D7083CBD}|rw-fortia-prime-api\\rw-fortia-prime-api.csproj|solutionrelative:rw-fortia-prime-api\\services\\catalogosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RhPuesto.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Entities\\RhPuesto.cs",
+              "RelativeDocumentMoniker": "rw-fortia-prime-api\\Entities\\RhPuesto.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Entities\\RhPuesto.cs",
+              "RelativeToolTip": "rw-fortia-prime-api\\Entities\\RhPuesto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T06:00:22.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Dtos\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "rw-fortia-prime-api\\Dtos\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Dtos\\MappingProfile.cs",
+              "RelativeToolTip": "rw-fortia-prime-api\\Dtos\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T05:57:20.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Program.cs",
+              "RelativeDocumentMoniker": "rw-fortia-prime-api\\Program.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Program.cs",
+              "RelativeToolTip": "rw-fortia-prime-api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T05:53:19.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CatalogosService.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Services\\CatalogosService.cs",
+              "RelativeDocumentMoniker": "rw-fortia-prime-api\\Services\\CatalogosService.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Services\\CatalogosService.cs",
+              "RelativeToolTip": "rw-fortia-prime-api\\Services\\CatalogosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T05:49:59.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PuestoDto.cs",
+              "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Dtos\\PuestoDto.cs",
+              "RelativeDocumentMoniker": "rw-fortia-prime-api\\Dtos\\PuestoDto.cs",
+              "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Dtos\\PuestoDto.cs",
+              "RelativeToolTip": "rw-fortia-prime-api\\Dtos\\PuestoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T05:47:01.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CatalogosController.cs",
               "DocumentMoniker": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Controllers\\CatalogosController.cs",
               "RelativeDocumentMoniker": "rw-fortia-prime-api\\Controllers\\CatalogosController.cs",
               "ToolTip": "C:\\Users\\carlo\\OneDrive\\Documentos\\Proyectos\\DotNet\\rw-fortia-prime-api\\rw-fortia-prime-api\\Controllers\\CatalogosController.cs",
               "RelativeToolTip": "rw-fortia-prime-api\\Controllers\\CatalogosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T05:17:31.412Z",
+              "WhenOpened": "2026-06-19T05:38:17.183Z",
               "EditorCaption": ""
             }
           ]

@@ -18,7 +18,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/RhPuesto"
+                    "$ref": "#/components/schemas/PuestoDto"
                   }
                 }
               },
@@ -26,7 +26,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/RhPuesto"
+                    "$ref": "#/components/schemas/PuestoDto"
                   }
                 }
               },
@@ -34,7 +34,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/RhPuesto"
+                    "$ref": "#/components/schemas/PuestoDto"
                   }
                 }
               }
@@ -85,18 +85,14 @@
   },
   "components": {
     "schemas": {
-      "RhPuesto": {
+      "PuestoDto": {
         "type": "object",
         "properties": {
-          "claPuesto": {
+          "clave": {
             "type": "integer",
             "format": "int32"
           },
-          "claEmpresa": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "nomPuesto": {
+          "puesto": {
             "type": "string",
             "nullable": true
           }
