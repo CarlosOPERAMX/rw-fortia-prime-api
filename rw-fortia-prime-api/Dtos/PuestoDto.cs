@@ -1,11 +1,14 @@
 using System.Text.Json.Serialization;
 
-public class PuestoDto
+namespace rw_fortia_prime_api.Dtos
 {
-    [JsonPropertyName("clave")]
-    public int ClaPuesto { get; set; }
+    public class PuestoDto
+    {
+        [JsonPropertyName("clave")]
+        public int ClaPuesto { get; set; }
 
 
-    [JsonPropertyName("puesto")]
-    public string? NomPuesto { get; set; }
+        [JsonPropertyName("puesto")]
+        public string? NomPuesto { get; set; }
+    }
 }

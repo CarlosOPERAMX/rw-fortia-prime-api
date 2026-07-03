@@ -50,7 +50,7 @@ builder.Services.AddSwaggerGen(options =>
 // DB
 builder.Services.AddDbContext<FortiaDbContext>(options =>
     options.UseSqlServer(
-        builder.Configuration.GetConnectionString("FortiaConnection")
+        builder.Configuration.GetConnectionString("FortiaPrimeConnection")
     )
 );
 

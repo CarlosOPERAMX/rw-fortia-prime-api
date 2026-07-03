@@ -1,5 +1,5 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using rw_fortia_prime_api.Dtos;
 using rw_fortia_prime_api.Entities;
 using rw_fortia_prime_api.Services;
 
@@ -10,20 +10,23 @@ namespace rw_fortia_prime_api.Controllers
     public class CatalogosController : ControllerBase
     {
         private readonly CatalogosService _catalogosService;
-        private readonly IMapper _mapeador;
 
-        public CatalogosController(CatalogosService catalogosService, IMapper mapeador)
+        public CatalogosController(CatalogosService catalogosService)
         {
             _catalogosService = catalogosService;
-            _mapeador = mapeador;
         }
 
         [HttpGet("puestos")]
         public async Task<ActionResult<IEnumerable<PuestoDto>>> ConsultarPuestos()
         {
-            var result = await _catalogosService.ConsultarPuestos();
-            var puestosDto = _mapeador.Map<IEnumerable<PuestoDto>>(result);
+            var puestosDto = await _catalogosService.ConsultarPuestos();
             return Ok(puestosDto);
+        }
+
+        [HttpGet("trabajadores")] public async Task<ActionResult<IEnumerable<TrabajadorDto>>> ConsultarTrabajadoresActivos()
+        {
+            var result = await _catalogosService.ConsultarTrabajadoresActivos();
+            return Ok(result);
         }
     }
 }

@@ -43,6 +43,44 @@
         }
       }
     },
+    "/api/Catalogos/trabajadores": {
+      "get": {
+        "tags": [
+          "Catalogos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TrabajadorDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TrabajadorDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/TrabajadorDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -89,6 +127,36 @@
         "type": "object",
         "properties": {
           "clave": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "puesto": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TrabajadorDto": {
+        "type": "object",
+        "properties": {
+          "clave": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido_paterno": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido_materno": {
+            "type": "string",
+            "nullable": true
+          },
+          "clave_puesto": {
             "type": "integer",
             "format": "int32"
           },
