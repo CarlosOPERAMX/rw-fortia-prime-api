@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("rw-fortia-prime-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+895155ddaf2182d51af4d9bf79c6cbe1308c77ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d663e14ebaec4a63e0926f95a36c1f29d47957a")]
 [assembly: System.Reflection.AssemblyProductAttribute("rw-fortia-prime-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("rw-fortia-prime-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
